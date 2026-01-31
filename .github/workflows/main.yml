@@ -2,8 +2,18 @@ name: Robo Vagas Inatel (Canal)
 
 on:
   schedule:
-    - cron: '0 11-23 * * *' # Roda de hora em hora
-  workflow_dispatch: # Botão para rodar manualmente
+    # Horários convertidos para UTC (+3h em relação ao Brasil)
+    
+    # 09:00 do Brasil (12:00 UTC)
+    - cron: '0 12 * * *'
+    
+    # 15:30 do Brasil (18:30 UTC)
+    - cron: '30 18 * * *'
+    
+    # 19:00 do Brasil (22:00 UTC)
+    - cron: '0 22 * * *'
+
+  workflow_dispatch: # Mantém o botão de rodar manual
 
 jobs:
   build:

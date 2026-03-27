@@ -43,4 +43,4 @@ Este é um projeto desenvolvido por aluno e **não possui vínculo oficial** com
 
 ---
 
-Made with 🐍 and ☕ by **João Victor Simões Rosa**.
+Made with 🐍 and ☕ by **João Victor Simões**.
